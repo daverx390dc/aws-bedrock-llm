@@ -1,0 +1,14 @@
+python-dotenv
+langchain-community
+langchain
+faiss-cpu
+openai
+langchain-openai
+pypdf
+sentence-transformers
+langchain-huggingface 
+transformers 
+huggingface_hub
+accelerate
+langchain-aws
+awscli
