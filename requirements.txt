@@ -12,3 +12,6 @@ huggingface_hub
 accelerate
 langchain-aws
 awscli
+fastapi
+uvicorn
+pydantic

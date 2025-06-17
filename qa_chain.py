@@ -14,7 +14,9 @@ def get_qa_chain():
 
     qa_chain = RetrievalQA.from_chain_type(
         llm=llm,
-        retriever=retriever
+        retriever=retriever,
+        return_source_documents=True,
+        chain_type='stuff'
     )
 
     return qa_chain
