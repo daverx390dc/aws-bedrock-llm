@@ -1,2 +1,4 @@
-Run : ingest.py
-Run : main.py
+
+# Run FASTAPI
+ "uvicorn api.main:app --reload --port 8000"
+
